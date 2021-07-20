@@ -53,7 +53,7 @@
           <h1 class="ps-center">Nuentro Menu</h1>
           <br />
           <%db.forEach(e => {%>
-            <h4><a href="/detalle?id=<%=e.id%>"><%=e.nombre%></a></h4>
+            <h4><a href="/detalle/<%=e.id%>"><%=e.nombre%></a></h4>
             <p class="ps-text-grey">
               <%=e.descripcion%> U$S <%=e.precio.toFixed(2)%>
             </p>
